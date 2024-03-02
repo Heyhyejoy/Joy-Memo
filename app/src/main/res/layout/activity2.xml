@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Name"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:translationY="500dp" />
+
+    <Button
+            android:id="@+id/btnDrawRed"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationY="10px"
+            android:backgroundTint="@color/white"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:iconTint="@color/red" />
+
+    <Button
+        android:id="@+id/btnDrawBlack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:translationX="300px"
+        android:translationY="10px"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconTint="@color/black" />
+
+    <Button
+        android:id="@+id/btnDrawBlue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:translationX="150px"
+        android:translationY="10px"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconTint="@color/blue" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:translationX="450px"
+        android:translationY="10px"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconTint="@color/black" />
+</RelativeLayout>
+        android:id="@+id/drawLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    </RelativeLayout>
+
